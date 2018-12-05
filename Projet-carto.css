@@ -1,13 +1,39 @@
 body{
-	width: 100%;
-	height: 100%;
-	margin:0;
-	padding:0;
+	margin: 0;
+	}
+
+.legende_titre{
+	font-size:14px;
+	text-align: center;
+	margin:10px 0;
+	border: 3px black dotted;
 }
 
-#map{
+#carte{
 	position: absolute;
 	width:100%;
-	height: 1000px;
+	height:100%;
 	margin:0;
+}
+
+.legende{
+	position: fixed;
+	right:0;
+	bottom:0;
+	margin-bottom: 40px;
+	margin-right: 20px;
+	height: 40px;
+	width: 200px;
+	background-color: red;
+	border-radius: 2px;
+}
+
+#pd{
+	position:fixed;
+	top:0;
+	right: 0;
+	height: 200px;
+	width: 200px;
+	background-color: red;
+
 }
